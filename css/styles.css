@@ -438,6 +438,29 @@ button {
 .footer-left {
   margin-right: 120px;
 }
+.footer-right {
+  margin-left: 80px;
+}
+.modal-form-footer {
+  display: flex;
+  gap: 24px;
+}
+.footer-subscribe {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+/* .modal-form-subscribe {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+} */
 .backdrop {
   position: fixed;
   top: 0;
@@ -584,6 +607,28 @@ button {
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 24px;
+}
+.modal-form-email {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+}
+
+.modal-form-email::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding-left: 16px;
 }
 
 .modal-form-checkbox {
